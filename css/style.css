@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    background-image: url(../image/bg.jpg);
+}
+img {
+    display: block;
+}
+.box {
+    width: 1000px;
+    margin: 0 auto; /* 間距auto自動偵測必搭配寬度width */
+}
+.btn {
+    float: left; /* 用float浮動區塊，覆蓋原來的black */
+}
+h1 {
+    font-size: 2rem;
+}
+h2 {
+    font-size: 150%; /* 相等font-size: 1.5em */
+}
+p {
+    font-size: 1em; /* <p>預設font-size: 1em */
+}
