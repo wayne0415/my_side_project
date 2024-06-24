@@ -5,12 +5,24 @@ body {
 img {
     display: block;
 }
+iframe {
+    display: block;
+    margin: 0 auto;
+}
 .box {
     width: 1000px;
     margin: 0 auto; /* 間距auto自動偵測必搭配寬度width */
 }
 .btn {
     float: left; /* 用float浮動區塊，覆蓋原來的black */
+}
+.col {
+    font-size: 14px;
+    float: left;
+    width: 456px; /* 文字會自動延展，所以要自訂尺寸 */
+    border: dotted 2px #4ba08a;
+    margin: 10px;
+    padding: 10px;
 }
 h1 {
     font-size: 2rem;
@@ -20,4 +32,10 @@ h2 {
 }
 p {
     font-size: 1em; /* <p>預設font-size: 1em */
+}
+.footer {
+    clear: both;
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
 }
